@@ -15,13 +15,13 @@
 ### Structure:
 ```
 $HOME/.config/
-	nvim
-		init.vim # Root config file
-		macos.vim # Mac-specific config
-		maps.vim # Keymaps
-		plug.vim # Vim-plug config
-		after
-			plugin/ # Plugin configs
-		colors/ # Color themes ( I typically just use Solirized Dark. )
+  nvim/
+    init.vim # Root config file
+    macos.vim # Mac-specific config
+    maps.vim # Keymaps
+    plug.vim # Vim-plug config
+    /after/
+      plugin/ # Plugin configs
+    colors/ # Color themes ( I typically just use Solirized Dark. )
 ```
 

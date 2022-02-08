@@ -4,7 +4,7 @@
 ### Ingredients (Requires Neovim)
 
 - [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager.
-- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - A [collection of common configurations](doc/server_configurations.md) for Neovim's built-in [language server client](https://neovim.io/doc/user/lsp.html).
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - A [collection of common configurations](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md) for Neovim's built-in [language server client](https://neovim.io/doc/user/lsp.html).
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - [Treesitter](https://github.com/tree-sitter/tree-sitter) Provides a simple and easy way to use the interface for tree-sitter in Neovim and to provide some basic functionality such as highlighting.
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion engine plugin for neovim written in Lua.
 - [lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) - Lspsaga is light-weight lsp plugin based on neovim built-in lsp with highly a performant UI.

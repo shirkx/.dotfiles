@@ -20,8 +20,8 @@ $HOME/.config/
     macos.vim # Mac-specific config
     maps.vim # Keymaps
     plug.vim # Vim-plug config
-    /after/
-      plugin/ # Plugin configs
-    colors/ # Color themes ( I typically just use Solirized Dark. )
+    after/
+      plugin # Plugin configs
+    colors # Color themes ( I typically just use Solirized Dark. )
 ```
 

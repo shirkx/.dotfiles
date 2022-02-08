@@ -1,6 +1,23 @@
 # dotfiles
 **Warning**: Please don't use my settings unless you know what you're doing. Use at your own risk!
 
+### Terminal setup and configurations:
+
+- [iTerm](https://iterm2.com/) - A better terminal for MacOS.
+- [Homebrew](https://brew.sh) - The Missing Package Manager for macOS (or Linux)
+
+(1st)
+```shell	
+	brew install git
+```
+**If git doesn't point to brew location**: ```export PATH="/usr/local/bin:${PATH}"```
+**For M1 Mac**: ```export PATH="/opt/homebrew/bin:${PATH}"```
+
+(2nd)
+```shell
+	brew install --HEAD neovim tree-sitter
+```
+
 ### Ingredients (Requires Neovim)
 
 - [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager.

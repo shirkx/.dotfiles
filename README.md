@@ -1,4 +1,7 @@
 # dotfiles
+![GitHub last commit](https://img.shields.io/github/last-commit/wesknerd/dotfiles)
+![GitHub top language](https://img.shields.io/github/languages/top/wesknerd/dotfiles)
+
 **Warning**: Please don't use my settings unless you know what you're doing. Use at your own risk!
 
 ### Prerequisites:

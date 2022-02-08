@@ -11,6 +11,8 @@
 	brew install git
 ```
 **If git doesn't point to brew location**: ```export PATH="/usr/local/bin:${PATH}"```
+
+
 **For M1 Mac**: ```export PATH="/opt/homebrew/bin:${PATH}"```
 
 (2nd)

@@ -3,17 +3,17 @@
 
 ### Prerequisites:
 
-Homebrew
+#### Homebrew
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-iTerm
+#### iTerm
 ```shell
-brew install --cask iterm2
+	brew install --cask iterm2
 ```
 
-Git
+#### Git
 ```shell	
 	brew install git
 ```
@@ -22,7 +22,7 @@ Git
 
 **For M1 Mac**: ```export PATH="/opt/homebrew/bin:${PATH}"```
 
-Neovim and Tree-sitter
+#### Neovim and Tree-sitter
 ```shell
 	brew install --HEAD neovim tree-sitter
 ```

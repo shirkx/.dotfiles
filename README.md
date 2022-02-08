@@ -12,17 +12,17 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-#### Homebrew
+2. #### Homebrew
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2. #### iTerm
+3. #### iTerm
 ```shell
 brew install --cask iterm2
 ```
 
-3. #### Git
+4. #### Git
 ```shell	
 brew install git
 ```
@@ -31,12 +31,12 @@ brew install git
 
 **For M1 Mac**: ```export PATH="/opt/homebrew/bin:${PATH}"```
 
-4. #### Neovim and Tree-sitter
+5. #### Neovim and Tree-sitter
 ```shell
 brew install --HEAD neovim tree-sitter
 ```
 
-5. ### Ingredients (Requires Neovim) - Use as needed
+### Ingredients (Requires Neovim) - Use as needed
 
 - [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager.
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - A [collection of common configurations](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md) for Neovim's built-in [language server client](https://neovim.io/doc/user/lsp.html).

@@ -3,13 +3,13 @@
 
 ### Ingredients (Requires Neovim)
 
-- [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager
-- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - A collection of configurations for Neovim's built-in LSP
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - [Treesitter](https://github.com/tree-sitter/tree-sitter) configurations and abstraction layer for Neovim
-- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion plugin for neovim coded in Lua
-- [lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) - A light-weight LSP plugin based on Neovim built-in LSP with highly a performat UI
-- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
-- [defx.nvim](https://github.com/Shougo/defx.nvim) - A file explorer
+- [vim-plug](https://github.com/junegunn/vim-plug) - A minimalist Vim plugin manager.
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - A [collection of common configurations](doc/server_configurations.md) for Neovim's built-in [language server client](https://neovim.io/doc/user/lsp.html).
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - [Treesitter](https://github.com/tree-sitter/tree-sitter) Provides a simple and easy way to use the interface for tree-sitter in Neovim and to provide some basic functionality such as highlighting.
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - A completion engine plugin for neovim written in Lua.
+- [lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) - Lspsaga is light-weight lsp plugin based on neovim built-in lsp with highly a performant UI.
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Is a highly extendable fuzzy finder over lists. Telescope is centered around modularity, allowing for easy customization.
+- [defx.nvim](https://github.com/Shougo/defx.nvim) - Defx is a dark powered plugin for Neovim/Vim to browse files.
 
 ----
 ### Structure:

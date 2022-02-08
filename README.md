@@ -5,17 +5,17 @@
 
 #### Homebrew
 ```shell
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 #### iTerm
 ```shell
-	brew install --cask iterm2
+brew install --cask iterm2
 ```
 
 #### Git
 ```shell	
-	brew install git
+brew install git
 ```
 **If git doesn't point to brew location**: ```export PATH="/usr/local/bin:${PATH}"```
 
@@ -24,7 +24,7 @@
 
 #### Neovim and Tree-sitter
 ```shell
-	brew install --HEAD neovim tree-sitter
+brew install --HEAD neovim tree-sitter
 ```
 
 ### Ingredients (Requires Neovim)

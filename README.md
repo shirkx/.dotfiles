@@ -56,5 +56,7 @@ $HOME/.config/
   nvim/
     init.vim   "Root config file
     plug.vim   "Vim-plug config
+    colors/
+      NeoSolarized.vim
 ```
 

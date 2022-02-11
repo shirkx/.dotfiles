@@ -57,6 +57,6 @@ $HOME/.config/
     init.vim   "Root config file
     plug.vim   "Vim-plug config
     colors/
-      NeoSolarized.vim
+      NeoSolarized.vim "Color scheme"
 ```
 

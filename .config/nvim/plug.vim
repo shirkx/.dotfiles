@@ -3,34 +3,43 @@ if has("nvim")
 endif
 
 call plug#begin()
+  
+  " NERDtree - A file system explorer for the Vim editor. 
+  Plug 'preservim/nerdtree'
 
-Plug 'scrooloose/nerdtree'
-Plug 'ryanoasis/vim-devicons'
+  " Defx - dark powered plugin for Neovim/Vim to browse files.
+  if has('nvim')
+    Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+  else
+    Plug 'Shougo/defx.nvim'
+    Plug 'roxma/nvim-yarp'
+    Plug 'roxma/vim-hug-neovim-rpc'
+  endif
+  
+  " COC - True snippet and additional text editing support
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-let g:NERDTreeShowHidden = 1
-let g:NERDTreeMinimalUI = 1
-let g:NERDTreeIgnore = []
-let g:NERDTreeStatusline = ''
-" Automaticaly close nvim if NERDTree is only thing left open
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-" Toggle
-nnoremap <silent> <C-b> :NERDTreeToggle<CR>
+  " Treesitter - Provides a simple interface and some basic functionality such as highlighting.
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  
+  " Polyglot - A collection of language packs for Vim.
+  Plug 'sheerun/vim-polyglot'
 
+  " Telescope - a highly extendable fuzzy finder over lists.
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
 
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-
-nnoremap <C-p> :FZF<CR>
-let g:fzf_action = {
-  \ 'ctrl-t': 'tab split',
-  \ 'ctrl-s': 'split',
-  \ 'ctrl-v': 'vsplit'
-  \}
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_etensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-python']
-
-Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
+  " Color Scheme - A color scheme based on Google's Material Design palette.
+  Plug 'tyrannicaltoucan/vim-quantum'
+  
+  " Additional Language Plugs
+  Plug 'mxw/vim-jsx'
+  Plug 'pangloss/vim-javascript'
+  
+  " Plugs I'm Testing...
+  Plug 'prettier/vim-prettier'
+  Plug 'vim-airline/vim-airline'
+  Plug 'rstacruz/vim-closer'
 
 call plug#end()
+

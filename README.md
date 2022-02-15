@@ -39,7 +39,7 @@ brew install git
 brew install --HEAD neovim tree-sitter
 ```
 
-### Ingredients - Use as you seem fit
+### Ingredients(Mainly for Frontend Dev) - Use as you seem fit 
 
 - [vim-plug](https://github.com/junegunn/vim-plug)
 - [NERDTree](https://github.com/preservim/nerdtree)

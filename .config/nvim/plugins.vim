@@ -28,18 +28,14 @@ call plug#begin()
   " Telescope - a highly extendable fuzzy finder over lists.
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
-
-  " Color Scheme - A color scheme based on Google's Material Design palette.
-  Plug 'tyrannicaltoucan/vim-quantum'
-  
-  " Additional Language Plugs
-  Plug 'mxw/vim-jsx'
-  Plug 'pangloss/vim-javascript'
+ 
+  " Emmet is a powerful completion tool for HTML, CSS and JavaScript
+  Plug 'mattn/emmet-vim'
   
   " Plugs I'm Testing...
+  Plug 'frazrepo/vim-rainbow'
   Plug 'prettier/vim-prettier'
   Plug 'vim-airline/vim-airline'
   Plug 'rstacruz/vim-closer'
 
 call plug#end()
-

@@ -3,27 +3,36 @@
 
 **Warning**: Please don't use my settings unless you know what you're doing. Use at your own risk!
 
-### Prerequisites:
-1. ##### [Oh My Zsh](https://ohmyz.sh/#install)
-  - **Optional theme for Zsh**: [Powerlevel10k](https://github.com/romkatv/powerlevel10k#installation)
+#### Prerequisites:
 
-2. ##### Homebrew
-```shell
+1. ##### [Oh My Zsh](https://ohmyz.sh/#install)
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+  - Optional theme for Zsh: [Powerlevel10k](https://github.com/romkatv/powerlevel10k#installation)
+
+2. ##### [Homebrew](https://brew.sh/)
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-3. ##### Git
-```shell	
-brew install git
-```
 
-3. ##### iTerm (mac)
-```shell
-brew install --cask iterm2
-```
+3. ##### Git
+  ```shell	
+  brew install git
+  ```
+
+4. ##### iTerm (mac)
+  ```shell
+  brew install --cask iterm2
+  ```
 
 5. ##### [Neovim](https://neovim.io/)
+```shell
+brew install neovim
+```
 
-### Ingredients(Mainly for Frontend Dev) - Use as you seem fit 
+
+##### Ingredients(Mainly for Frontend Dev) - Use as you seem fit 
 
 - [vim-plug](https://github.com/junegunn/vim-plug)
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
@@ -33,7 +42,7 @@ brew install --cask iterm2
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 
 ----
-### Structure:
+#### Structure:
 ```vim
 $HOME/.config/
   nvim/
@@ -41,3 +50,6 @@ $HOME/.config/
     plugins.vim   "Vim-plug config
 ```
 
+----
+#### Theme: [Dracula](https://draculatheme.com/)
+----

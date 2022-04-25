@@ -20,6 +20,14 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
   ```shell	
   brew install git
   ```
+###### For intel:
+```shell
+  export PATH="/usr/local/bin:${PATH}"
+```
+###### For M1:
+```shell
+  export PATH="/opt/homebrew/bin:${PATH}"
+```
 
 4. ##### iTerm (mac)
   ```shell

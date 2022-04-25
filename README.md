@@ -58,6 +58,3 @@ $HOME/.config/
     plugins.vim   "Vim-plug config
 ```
 
-----
-#### Theme: [Dracula](https://draculatheme.com/)
-----

@@ -39,22 +39,11 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 brew install neovim
 ```
 
-
-##### Ingredients(Mainly for Frontend Dev) - Use as you seem fit 
-
-- [vim-plug](https://github.com/junegunn/vim-plug)
-- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [NERDTree](https://github.com/preservim/nerdtree)
-- [COC](https://github.com/neoclide/coc.nvim)
-- [Polyglot](https://github.com/sheerun/vim-polyglot)
-- [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-
 ----
 #### Structure:
 ```vim
 $HOME/.config/
   nvim/
     init.vim   "Root config file
-    plugins.vim   "Vim-plug config
 ```
 

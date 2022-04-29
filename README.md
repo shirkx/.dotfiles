@@ -41,9 +41,17 @@ brew install neovim
 
 ----
 #### Structure:
+###### Mac
 ```vim
 $HOME/.config/
   nvim/
     init.vim   "Root config file
+```
+
+###### Win
+```vim
+~Appdata/Local/
+    nvim/
+    init.vim
 ```
 

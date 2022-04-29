@@ -13,7 +13,9 @@ set autoindent
 
 " PLUGS "{{{
 " ---------------------------------------------------------------------
-call plug#begin('~/.vim/plugged')
+" Uncomment below based on system(Mac/Win).
+" call plug#begin('~/.vim/plugged')
+" call plug#begin('~/AppData/Local/nvim/plugged')
 
 " Colorscheme
 Plug 'altercation/vim-colors-solarized'

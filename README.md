@@ -7,7 +7,7 @@
 
 1. ##### [Homebrew](https://brew.sh/)
     - Optional Brews:
-        [Git](https://git-scm.com/about)
+        - [Git](https://git-scm.com/about)
         - Set PATH if needed:
         ###### For intel:
         ```shell
@@ -17,10 +17,10 @@
         ```shell
               export PATH="/opt/homebrew/bin:${PATH}"
         ```
-        [iTerm - A replacement for Terminal](https://iterm2.com/)
-        [Neovim - Vim-based text editor engineered for extensibility and usability](https://neovim.io/)
-        [Exa - A modern replacement for ls](https://github.com/ogham/exa)
-        [Peco - Interactice filtering tool](https://github.com/peco/peco)
+        - [iTerm - A replacement for Terminal](https://iterm2.com/)
+        - [Neovim - Vim-based text editor engineered for extensibility and usability](https://neovim.io/)
+        - [Exa - A modern replacement for ls](https://github.com/ogham/exa)
+        - [Peco - Interactice filtering tool](https://github.com/peco/peco)
 
 2. ##### [Fish](https://fishshell.com/)
     - Optional for fish: 

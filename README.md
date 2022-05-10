@@ -5,53 +5,44 @@
 
 #### Prerequisites:
 
-1. ##### [Oh My Zsh](https://ohmyz.sh/#install)
-```
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-  - Optional theme for Zsh: [Powerlevel10k](https://github.com/romkatv/powerlevel10k#installation)
+1. ##### [Homebrew](https://brew.sh/)
+    - Optional Brews:
+        [Git](https://git-scm.com/about)
+        - Set PATH if needed:
+        ###### For intel:
+        ```shell
+              export PATH="/usr/local/bin:${PATH}"
+        ```
+        ###### For M1:
+        ```shell
+              export PATH="/opt/homebrew/bin:${PATH}"
+        ```
+        [iTerm - A replacement for Terminal](https://iterm2.com/)
+        [Neovim - Vim-based text editor engineered for extensibility and usability](https://neovim.io/)
+        [Exa - A modern replacement for ls](https://github.com/ogham/exa)
+        [Peco - Interactice filtering tool](https://github.com/peco/peco)
 
-2. ##### [Homebrew](https://brew.sh/)
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-3. ##### Git
-  ```shell	
-  brew install git
-  ```
-###### For intel:
-```shell
-  export PATH="/usr/local/bin:${PATH}"
-```
-###### For M1:
-```shell
-  export PATH="/opt/homebrew/bin:${PATH}"
-```
-
-4. ##### iTerm (mac)
-  ```shell
-  brew install --cask iterm2
-  ```
-
-5. ##### [Neovim](https://neovim.io/)
-```shell
-brew install neovim
-```
+2. ##### [Fish](https://fishshell.com/)
+    - Optional for fish: 
+        - [Fisher - Plugin Mangager](https://github.com/jorgebucaran/fisher)
+        - [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
+        - [z - Directory Jumping](https://github.com/jethrokuan/z)
 
 ----
 #### Structure:
 ###### Mac
 ```vim
 $HOME/.config/
-  nvim/
-    init.vim   "Root config file
+    nvim/
+        init.vim   "Root config file
+    fish/
+        config.fish
 ```
 
 ###### Win
 ```vim
 ~Appdata/Local/
     nvim/
-    init.vim
+        init.vim
 ```
 

@@ -8,7 +8,7 @@
 1. ##### [Homebrew](https://brew.sh/)
     - Optional Brews:
         - [Git](https://git-scm.com/about)
-            Set git PATH if needed:
+            - Set git PATH if needed:
             ###### For intel:
             ```shell
               export PATH="/usr/local/bin:${PATH}"

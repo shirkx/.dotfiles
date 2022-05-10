@@ -8,15 +8,15 @@
 1. ##### [Homebrew](https://brew.sh/)
     - Optional Brews:
         - [Git](https://git-scm.com/about)
-        - Set PATH if needed:
-        ###### For intel:
-        ```shell
+            Set git PATH if needed:
+            ###### For intel:
+            ```shell
               export PATH="/usr/local/bin:${PATH}"
-        ```
-        ###### For M1:
-        ```shell
+            ```
+            ###### For M1:
+            ```shell
               export PATH="/opt/homebrew/bin:${PATH}"
-        ```
+            ```
         - [iTerm - A replacement for Terminal](https://iterm2.com/)
         - [Neovim - Vim-based text editor engineered for extensibility and usability](https://neovim.io/)
         - [Exa - A modern replacement for ls](https://github.com/ogham/exa)

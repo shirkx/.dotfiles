@@ -7,11 +7,11 @@
 
 ## [Package Manager - Homebrew](https://brew.sh/)
     
-    Multiple brews can be install at once, but that is up to you.
-    ###### example:
-    ```shell
-        brew install git fish neovim tree-sitter exa peco
-    ```
+Multiple brews can be install at once, but that is up to you.
+###### example:
+```shell
+    brew install git fish neovim tree-sitter exa peco
+```
 
     [Git](https://git-scm.com/about)
     ```shell

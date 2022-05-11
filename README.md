@@ -6,6 +6,7 @@
 # Prerequisites:
 
 ## [Package Manager - Homebrew](https://brew.sh/)
+    
     Multiple brews can be install at once, but that is up to you.
     ###### example:
     ```shell
@@ -43,6 +44,7 @@
     ```
 
 ## Optional Brews:
+
     [Tree-Sitter - a parser generator tool and an incremental parsing library](https://github.com/tree-sitter/tree-sitter)
     ```shell
         brew install tree-sitter 
@@ -68,10 +70,12 @@
 ## [Fisher - Plugin Mangager](https://github.com/jorgebucaran/fisher)
 
     ### Optional Fisher plugins:
+
     [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
     ```fish
         fisher install IlanCosman/tide@v5
     ```
+
     [z - Directory Jumping](https://github.com/jethrokuan/z)
     ```fish
         fisher install jethrokuan/z

@@ -16,15 +16,17 @@
     ```shell
         brew install git        
     ```
-        ###### Set git PATH if needed:
-        ###### For intel:
-        ```shell
-            export PATH="/usr/local/bin:${PATH}"
-        ```
-        ###### For M1:
-        ```shell
-            export PATH="/opt/homebrew/bin:${PATH}"
-        ```
+
+    ###### Set git PATH if needed:
+    ###### For intel:
+    ```shell
+        export PATH="/usr/local/bin:${PATH}"
+    ```
+        
+    ###### For M1:
+    ```shell
+        export PATH="/opt/homebrew/bin:${PATH}"
+    ```
 
     [iTerm - A replacement for Terminal](https://iterm2.com/)
     ```shell
@@ -41,6 +43,7 @@
     ```
     
     ### Optional Brews:
+    ----
     [Tree-Sitter - a parser generator tool and an incremental parsing library](https://github.com/tree-sitter/tree-sitter)
     ```shell
         brew install tree-sitter 
@@ -56,12 +59,13 @@
         brew install peco
     ```
 
-    ### Optional Casks:        
+    ### Optional Casks:
+    ----
     [Alfred - Spotlight replacement](https://www.alfredapp.com/)
     ```shell
         brew cask install alfred
     ```
-
+----
 2. ### [Fisher - Plugin Mangager](https://github.com/jorgebucaran/fisher)
 
     #### Optional Fisher plugins:
@@ -73,7 +77,7 @@
     ```fish
         fisher install jethrokuan/z
     ```
-
+----
 3. ### [Colorscheme - Solarized](https://github.com/altercation/vim-colors-solarized)
 
 ----

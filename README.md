@@ -4,7 +4,7 @@
 **Warning**: Please don't use my settings unless you know what you're doing. Use at your own risk!
 
 # Prerequisites:
-1. ## [Package Manager - Homebrew](https://brew.sh/)    
+## 1. [Package Manager - Homebrew](https://brew.sh/)    
 Multiple brews can be install at once, but that is up to you.
 ###### example:
 ```shell
@@ -63,7 +63,7 @@ Multiple brews can be install at once, but that is up to you.
     brew cask install alfred
 ```
 
-2. ## [Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
+## 2. [Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
 #### Optional Fisher plugins:
 [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
 ```fish
@@ -75,7 +75,7 @@ Multiple brews can be install at once, but that is up to you.
     fisher install jethrokuan/z
 ```
 
-3. ## [Colorscheme - Solarized](https://github.com/altercation/vim-colors-solarized)
+## 3. [Colorscheme - Solarized](https://github.com/altercation/vim-colors-solarized)
 
 # Structure:
 ```vim

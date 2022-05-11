@@ -41,9 +41,8 @@
     ```shell
         brew install neovim
     ```
-    
-    ### Optional Brews:
     ----
+    ### Optional Brews:
     [Tree-Sitter - a parser generator tool and an incremental parsing library](https://github.com/tree-sitter/tree-sitter)
     ```shell
         brew install tree-sitter 
@@ -58,9 +57,9 @@
     ```shell
         brew install peco
     ```
-
-    ### Optional Casks:
     ----
+    ### Optional Casks:
+
     [Alfred - Spotlight replacement](https://www.alfredapp.com/)
     ```shell
         brew cask install alfred
@@ -79,7 +78,6 @@
     ```
 ----
 3. ### [Colorscheme - Solarized](https://github.com/altercation/vim-colors-solarized)
-
 ----
 #### Structure:
 ```vim

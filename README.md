@@ -3,9 +3,9 @@
 
 **Warning**: Please don't use my settings unless you know what you're doing. Use at your own risk!
 
-## Prerequisites:
+# Prerequisites:
 
-1. ### [Package Manager - Homebrew](https://brew.sh/)
+## [Package Manager - Homebrew](https://brew.sh/)
     Multiple brews can be install at once, but that is up to you.
     ###### example:
     ```shell
@@ -41,8 +41,8 @@
     ```shell
         brew install neovim
     ```
-    ----
-    ### Optional Brews:
+
+## Optional Brews:
     [Tree-Sitter - a parser generator tool and an incremental parsing library](https://github.com/tree-sitter/tree-sitter)
     ```shell
         brew install tree-sitter 
@@ -57,15 +57,15 @@
     ```shell
         brew install peco
     ```
-    ----
-    ### Optional Casks:
+
+## Optional Casks:
 
     [Alfred - Spotlight replacement](https://www.alfredapp.com/)
     ```shell
         brew cask install alfred
     ```
-----
-2. ### [Fisher - Plugin Mangager](https://github.com/jorgebucaran/fisher)
+
+## [Fisher - Plugin Mangager](https://github.com/jorgebucaran/fisher)
 
     ### Optional Fisher plugins:
     [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
@@ -76,10 +76,10 @@
     ```fish
         fisher install jethrokuan/z
     ```
-----
-3. ### [Colorscheme - Solarized](https://github.com/altercation/vim-colors-solarized)
-----
-#### Structure:
+
+## [Colorscheme - Solarized](https://github.com/altercation/vim-colors-solarized)
+
+# Structure:
 ```vim
 $HOME/.config/
     nvim/

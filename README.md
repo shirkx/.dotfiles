@@ -67,7 +67,7 @@
 ----
 2. ### [Fisher - Plugin Mangager](https://github.com/jorgebucaran/fisher)
 
-    #### Optional Fisher plugins:
+    ### Optional Fisher plugins:
     [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
     ```fish
         fisher install IlanCosman/tide@v5

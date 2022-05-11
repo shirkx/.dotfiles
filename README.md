@@ -41,7 +41,7 @@ Multiple brews can be install at once, but that is up to you.
     brew install neovim
 ```
 
-## Optional Brews:
+#### Optional Brews:
 [Tree-Sitter - a parser generator tool and an incremental parsing library](https://github.com/tree-sitter/tree-sitter)
 ```shell
     brew install tree-sitter 
@@ -57,7 +57,7 @@ Multiple brews can be install at once, but that is up to you.
     brew install peco
 ```
 
-## Optional Casks:
+#### Optional Casks:
 [Alfred - Spotlight replacement](https://www.alfredapp.com/)
 ```shell
     brew cask install alfred
@@ -65,7 +65,7 @@ Multiple brews can be install at once, but that is up to you.
 
 ## [Fisher - Plugin Mangager](https://github.com/jorgebucaran/fisher)
 
-### Optional Fisher plugins:
+#### Optional Fisher plugins:
 [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
 ```fish
     fisher install IlanCosman/tide@v5

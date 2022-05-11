@@ -47,7 +47,7 @@
     brew install exa
 ```
 
-[Peco - Interactice filtering tool](https://github.com/peco/peco)
+[Peco - Interactive filtering tool](https://github.com/peco/peco)
 ```shell
     brew install peco
 ```

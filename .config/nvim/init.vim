@@ -13,12 +13,10 @@ set autoindent
 
 " PLUGS "{{{
 " ---------------------------------------------------------------------
-" Uncomment below based on system(Mac/Win).
-" call plug#begin('~/.vim/plugged')
-" call plug#begin('~/AppData/Local/nvim/plugged')
+call plug#begin('~/.vim/plugged')
 
 " Colorscheme
-Plug 'altercation/vim-colors-solarized'
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 
 " Autopairs
 Plug 'jiangmiao/auto-pairs'
@@ -57,10 +55,9 @@ call plug#end()
 
 "}}}
 
-" Colorscheme
-set background=dark
-colorscheme solarized
-let g:airline_theme='solarized'
+" Load the colorscheme
+let g:catppuccin_flavour = "mocha" " dusk, latte, frappe, macchiato, mocha
+colorscheme catppuccin
 
 " NERDtree - "F2" - toggles Nerdtree
 let NERDTreeQuitOnOpen=1

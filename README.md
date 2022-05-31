@@ -70,7 +70,7 @@
     fisher install jethrokuan/z
 ```
 
-## 3. [Colorscheme - Solarized](https://github.com/altercation/vim-colors-solarized)
+## 3. [Colorscheme - Catppuccin](https://github.com/catppuccin/catppuccin)
 
 # Structure:
 ```vim

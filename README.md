@@ -76,7 +76,7 @@
 ```vim
 $HOME/.config/
     nvim/
-        init.vim   "Root config file
+        init.vim
     fish/
         config.fish
 ```

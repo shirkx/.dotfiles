@@ -58,7 +58,9 @@
     brew cask install alfred
 ```
 
-## 2. [Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
+## 4. [Vim Plugin Manager - Vim-Plug](https://github.com/junegunn/vim-plug)
+
+## 3. [Fish Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
 #### Optional Fisher plugins:
 [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
 ```fish
@@ -70,7 +72,7 @@
     fisher install jethrokuan/z
 ```
 
-## 3. [Colorscheme - Catppuccin](https://github.com/catppuccin/catppuccin)
+## 4. [Colorscheme - Catppuccin](https://github.com/catppuccin/catppuccin)
 
 # Structure:
 ```vim

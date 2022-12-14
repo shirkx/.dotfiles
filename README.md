@@ -59,6 +59,7 @@
 ```
 
 ## 4. [Vim Plugin Manager - Vim-Plug](https://github.com/junegunn/vim-plug)
+#### [Nerd Fonts needed to make it pretty.](https://github.com/ryanoasis/nerd-fonts)
 
 ## 3. [Fish Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
 #### Optional Fisher plugins:

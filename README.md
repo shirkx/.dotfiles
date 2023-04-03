@@ -4,7 +4,11 @@
 **Warning**: Please don't use my settings unless you know what you're doing. Use at your own risk!
 
 # Prerequisites:
-## 1. [Package Manager - Homebrew](https://brew.sh/)    
+## 1. [Package Manager - Homebrew](https://brew.sh/)   
+###### For linux:
+```shell
+    export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+```
 
 [Git](https://git-scm.com/about)
 ```shell

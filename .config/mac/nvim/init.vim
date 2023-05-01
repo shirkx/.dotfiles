@@ -16,7 +16,7 @@ set autoindent
 call plug#begin('~/.vim/plugged')
 
 " Colorscheme
-Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'arcticicestudio/nord-vim'
 
 " Autopairs
 Plug 'jiangmiao/auto-pairs'
@@ -56,8 +56,7 @@ call plug#end()
 "}}}
 
 " Load the colorscheme
-let g:catppuccin_flavour = "mocha" " dusk, latte, frappe, macchiato, mocha
-colorscheme catppuccin
+colorscheme nord
 
 " NERDtree - "F2" - toggles Nerdtree
 let NERDTreeQuitOnOpen=1
@@ -74,4 +73,5 @@ let g:airline#extensions#tabline#fnamemode=':t'
 nmap <leader>1 :bp<CR> " Back
 nmap <leader>2 :bn<CR> " Forward
 nmap <C-w> :bd<CR> " Close
+
 

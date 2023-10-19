@@ -12,9 +12,9 @@ if status is-interactive
     alias vim="nvim"
     alias cls="clear"
 
-    # Aliases for Exa
-    if type -q exa
-      alias ll "exa -l -g --icons"
+    # Aliases for Eza
+    if type -q eza
+      alias ll "eza -l -g --icons"
       alias lla "ll -a"
     end
 

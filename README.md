@@ -50,9 +50,9 @@
     brew install tree-sitter 
 ````
 
-[Exa - A modern replacement for ls](https://github.com/ogham/exa)
+[Eza - a modern, maintained replacement for ls, built on exa](https://github.com/eza-community/eza)
 ````shell
-    brew install exa
+    brew install eza
 ````
 
 [Peco - Interactive filtering tool](https://github.com/peco/peco)

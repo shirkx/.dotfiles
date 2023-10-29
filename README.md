@@ -6,14 +6,14 @@
 # Prerequisites:
 ## 1. [Git](https://git-scm.com/)
 
-*Set PATH if needed:*
+*Set PATH if needed for Mac:*
 For intel:
 ````shell
-    export PATH="/usr/local/bin:${PATH}"
+export PATH="/usr/local/bin:${PATH}"
 ````        
 For M1:
 ````shell
-    export PATH="/opt/homebrew/bin:${PATH}"
+export PATH="/opt/homebrew/bin:${PATH}"
 ````
 
 ## 2. [Package Manager - Homebrew](https://brew.sh/)

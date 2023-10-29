@@ -69,12 +69,3 @@ fisher install IlanCosman/tide@v6
 fisher install jethrokuan/z
 ````
 
-# Structure:
-````vim
-$HOME/.config/
-    nvim/
-        init.vim
-    fish/
-        config.fish
-````
-

@@ -6,12 +6,13 @@
 # Prerequisites:
 ## 1. [Git](https://git-scm.com/)
 
-*Set PATH if needed for Mac:*
-For intel:
+*Set PATH for Mac if needed*
+
+Intel:
 ````shell
 export PATH="/usr/local/bin:${PATH}"
 ````        
-For M1:
+M1:
 ````shell
 export PATH="/opt/homebrew/bin:${PATH}"
 ````
@@ -37,19 +38,19 @@ brew cask install iterm2
 # Brews:
 [Fish - Shell](https://fishshell.com/)
 ````shell
-    brew install fish
+brew install fish
 ````
 [Neovim - Vim-based text editor engineered for extensibility and usability](https://neovim.io/)
 ````shell
-    brew install neovim
+brew install neovim
 ````
 [Eza - a modern, maintained replacement for ls, built on exa](https://github.com/eza-community/eza)
 ````shell
-    brew install eza
+brew install eza
 ````
 [Peco - Interactive filtering tool](https://github.com/peco/peco)
 ````shell
-    brew install peco
+brew install peco
 ````
 
 ## 3. [Vim Plugin Manager - Vim-Plug](https://github.com/junegunn/vim-plug)
@@ -60,11 +61,11 @@ brew cask install iterm2
 *Install Nerdfonts before tide.*
 [NERD FONTS](https://github.com/ryanoasis/nerd-fonts)
 ````fish
-    fisher install IlanCosman/tide@v6
+fisher install IlanCosman/tide@v6
 ````
 [z - Directory Jumping](https://github.com/jethrokuan/z)
 ````fish
-    fisher install jethrokuan/z
+fisher install jethrokuan/z
 ````
 
 # Structure:

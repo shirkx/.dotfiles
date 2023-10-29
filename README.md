@@ -56,9 +56,10 @@ brew install peco
 ## 4. [Vim Plugin Manager - Vim-Plug](https://github.com/junegunn/vim-plug)
 
 ## 5. [Fish Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
-### Fisher plugins:
-[Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
+### Plugins:
+
 **Install [NERD FONTS](https://github.com/ryanoasis/nerd-fonts) before Tide**
+[Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
 ````fish
 fisher install IlanCosman/tide@v6
 ````

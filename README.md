@@ -58,7 +58,8 @@ brew install peco
 ## 5. [Fish Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
 ### Plugins:
 
-**Install [NERD FONTS](https://github.com/ryanoasis/nerd-fonts) before Tide**
+**Install [NERD FONTS](https://github.com/ryanoasis/nerd-fonts) before Tide.**
+
 [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
 ````fish
 fisher install IlanCosman/tide@v6

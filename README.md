@@ -4,37 +4,37 @@
 **WARNING - Use at your own risk!**
 
 # Prerequisites:
-## 1. [Package Manager - Homebrew](https://brew.sh/)   
-### linux:
-````shell
-    export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-````
+## 1. [Git](https://git-scm.com/)
 
-[Git](https://git-scm.com/about)
-````shell
-    brew install git        
-````
-
-### Set git PATH if needed:
-### For intel:
+*Set PATH if needed:*
+For intel:
 ````shell
     export PATH="/usr/local/bin:${PATH}"
-````
-        
-### For M1:
+````        
+For M1:
 ````shell
     export PATH="/opt/homebrew/bin:${PATH}"
 ````
 
-**Linux Terminal**
-[Kitty](https://sw.kovidgoyal.net/kitty/)
-
-**Mac Terminal**
-[iTerm - A replacement for Terminal](https://iterm2.com/)
+## 2. [Package Manager - Homebrew](https://brew.sh/)
+*Set PATH if needed:*
 ````shell
-    brew cask install iterm2
+export PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
+export PATH="/home/linuxbres/.linuxbrew/sbin:${PATH})"
 ````
 
+**Terminals**
+[Kitty - Linux](https://sw.kovidgoyal.net/kitty/)
+````shell
+sudo apt install kitty
+````
+**Mac Terminal**
+[iTerm - Mac](https://iterm2.com/)
+````shell
+brew cask install iterm2
+````
+
+# Brews:
 [Fish - Shell](https://fishshell.com/)
 ````shell
     brew install fish
@@ -43,45 +43,29 @@
 ````shell
     brew install neovim
 ````
-
-### Optional Brews:
-[Tree-Sitter - a parser generator tool and an incremental parsing library](https://github.com/tree-sitter/tree-sitter)
-````shell
-    brew install tree-sitter 
-````
-
 [Eza - a modern, maintained replacement for ls, built on exa](https://github.com/eza-community/eza)
 ````shell
     brew install eza
 ````
-
 [Peco - Interactive filtering tool](https://github.com/peco/peco)
 ````shell
     brew install peco
 ````
 
-### Optional Casks:
-[Alfred - Spotlight replacement](https://www.alfredapp.com/)
-````shell
-    brew cask install alfred
-````
+## 3. [Vim Plugin Manager - Vim-Plug](https://github.com/junegunn/vim-plug)
 
-## 4. [Vim Plugin Manager - Vim-Plug](https://github.com/junegunn/vim-plug)
-### [Nerd Fonts needed to make it pretty.](https://github.com/ryanoasis/nerd-fonts)
-
-## 3. [Fish Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
-### Optional Fisher plugins:
+## 4. [Fish Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
+### Fisher plugins:
 [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
+*Install Nerdfonts before tide.*
+[NERD FONTS](https://github.com/ryanoasis/nerd-fonts)
 ````fish
-    fisher install IlanCosman/tide@v5
+    fisher install IlanCosman/tide@v6
 ````
-
 [z - Directory Jumping](https://github.com/jethrokuan/z)
 ````fish
     fisher install jethrokuan/z
 ````
-
-## 4. [Colorscheme - Catppuccin](https://github.com/catppuccin/catppuccin)
 
 # Structure:
 ````vim

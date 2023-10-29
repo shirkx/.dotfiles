@@ -6,7 +6,7 @@
 # Prerequisites:
 ## 1. [Git](https://git-scm.com/)
 
-**Set PATH if needed**
+**Set PATH (MAC) if needed:**
 
 Intel MAC:
 ````shell
@@ -18,13 +18,13 @@ export PATH="/opt/homebrew/bin:${PATH}"
 ````
 
 ## 2. [Package Manager - Homebrew](https://brew.sh/)
-**Set PATH if needed:**
+**Set PATH (Linux) if needed:**
 ````shell
 export PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
 export PATH="/home/linuxbres/.linuxbrew/sbin:${PATH})"
 ````
 
-**Terminals**
+## 3. Prefered Terminals
 
 [Kitty - Linux](https://sw.kovidgoyal.net/kitty/)
 ````shell
@@ -35,7 +35,7 @@ sudo apt install kitty
 brew cask install iterm2
 ````
 
-# Brews:
+### Brews:
 [Fish - Shell](https://fishshell.com/)
 ````shell
 brew install fish
@@ -53,9 +53,9 @@ brew install eza
 brew install peco
 ````
 
-## 3. [Vim Plugin Manager - Vim-Plug](https://github.com/junegunn/vim-plug)
+## 4. [Vim Plugin Manager - Vim-Plug](https://github.com/junegunn/vim-plug)
 
-## 4. [Fish Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
+## 5. [Fish Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
 ### Fisher plugins:
 [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
 **Install [NERD FONTS](https://github.com/ryanoasis/nerd-fonts) before Tide**

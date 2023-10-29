@@ -24,11 +24,11 @@ export PATH="/home/linuxbres/.linuxbrew/sbin:${PATH})"
 ````
 
 **Terminals**
+
 [Kitty - Linux](https://sw.kovidgoyal.net/kitty/)
 ````shell
 sudo apt install kitty
 ````
-**Mac Terminal**
 [iTerm - Mac](https://iterm2.com/)
 ````shell
 brew cask install iterm2

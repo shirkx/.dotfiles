@@ -6,19 +6,19 @@
 # Prerequisites:
 ## 1. [Git](https://git-scm.com/)
 
-*Set PATH for Mac if needed*
+**Set PATH if needed**
 
-Intel:
+Intel MAC:
 ````shell
 export PATH="/usr/local/bin:${PATH}"
 ````        
-M1:
+M1 MAC:
 ````shell
 export PATH="/opt/homebrew/bin:${PATH}"
 ````
 
 ## 2. [Package Manager - Homebrew](https://brew.sh/)
-*Set PATH if needed:*
+**Set PATH if needed:**
 ````shell
 export PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
 export PATH="/home/linuxbres/.linuxbrew/sbin:${PATH})"
@@ -58,8 +58,7 @@ brew install peco
 ## 4. [Fish Plugin Mangager - Fisher](https://github.com/jorgebucaran/fisher)
 ### Fisher plugins:
 [Tide - Ultimate Fish Prompt](https://github.com/IlanCosman/tide)
-*Install Nerdfonts before tide.*
-[NERD FONTS](https://github.com/ryanoasis/nerd-fonts)
+**Install [NERD FONTS](https://github.com/ryanoasis/nerd-fonts) before Tide**
 ````fish
 fisher install IlanCosman/tide@v6
 ````

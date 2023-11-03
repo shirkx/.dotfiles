@@ -1,5 +1,5 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/wesknerd/dotfiles)
-![GitHub top language](https://img.shields.io/github/languages/top/wesknerd/dotfiles)
+![GitHub last commit](https://img.shields.io/github/last-commit/shirkx/dotfiles)
+![GitHub top language](https://img.shields.io/github/languages/top/shirkx/dotfiles)
 
 **WARNING - Use at your own risk!**
 

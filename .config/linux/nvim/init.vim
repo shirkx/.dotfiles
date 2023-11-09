@@ -16,7 +16,7 @@ set autoindent
 call plug#begin('~/.vim/plugged')
 
 " Colorscheme
-Plug 'nordtheme/vim'
+Plug 'EdenEast/nightfox.nvim' 
 
 " Autopairs
 Plug 'jiangmiao/auto-pairs'
@@ -47,6 +47,9 @@ Plug 'nvim-telescope/telescope.nvim'
 " Emmet is a powerful completion tool for HTML, CSS and JavaScript
 Plug 'mattn/emmet-vim'
 
+" Nvim orgmode
+Plug 'nvim-orgmode/orgmode'
+
 " Plugs I'm Testing...
 Plug 'frazrepo/vim-rainbow'
 Plug 'prettier/vim-prettier'
@@ -56,7 +59,7 @@ call plug#end()
 "}}}
 
 " Load the colorscheme
-colorscheme nord
+colorscheme nordfox
 
 " NERDtree - "F2" - toggles Nerdtree
 let NERDTreeQuitOnOpen=1

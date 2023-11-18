@@ -3,7 +3,7 @@
 
 **WARNING - Use at your own risk!**
 
-1. # Prerequisites:
+# 1. Prerequisites:
 - [Homebrew](https://github.com/Homebrew/Brews)
 - [Kitty](https://github.com/kovidgoyal/kitty)
 - [NeoVim](https://github.com/neovim/neovim)
@@ -13,9 +13,9 @@
 - [Ripgrep](https://github.com/BurntSushi/ripgrep)
 - [fd](https://github.com/sharkdp/fd)
 
-2. # [LAZYVIM](https://github.com/LazyVim/LazyVim)
+# 2. [LAZYVIM](https://github.com/LazyVim/LazyVim)
 
-3. # Helpful Brews/Casks:
+# 3. Helpful Brews/Casks:
 - [Fish](https://formulae.brew.sh/formula/fish#default)
 - [Lua](https://formulae.brew.sh/formula/lua#default)
 - [Eza](https://formulae.brew.sh/formula/eza#default)
@@ -25,7 +25,7 @@
 - [Spotify](https://formulae.brew.sh/cask/spotify#default)
 
 
-4. # [Fisher](https://github.com/jorgebucaran/fisher):
+# 4. [Fisher](https://github.com/jorgebucaran/fisher):
 - [Tide](https://github.com/IlanCosman/tide)
 - [Z](https://github.com/jethrokuan/z)
 

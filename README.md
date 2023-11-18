@@ -4,7 +4,7 @@
 **WARNING - Use at your own risk!**
 
 # 1. Prerequisites:
-- [Homebrew](https://github.com/Homebrew/Brews)
+- [Homebrew](https://github.com/Homebrew/Brew)
 - [Kitty](https://github.com/kovidgoyal/kitty)
 - [NeoVim](https://github.com/neovim/neovim)
 - [Git](https://git-scm.com/)
